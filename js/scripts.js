@@ -3,7 +3,7 @@ var tablespoonsToCups = function() {
   alert((cups * 16) + " is the amount of Tablespoons you will need.");
 };
 
-tablespoonsToCups();
+// tablespoonsToCups();
 
 var litersToCups = function() {
   liters = parseInt(prompt("Enter in Liters"));
@@ -11,14 +11,14 @@ var litersToCups = function() {
   alert(liters + " liters = " + (liters * 4.22675) + " cups.");
 };
 
-litersToCups();
+// litersToCups();
 
 var cupsToPints = function(cups) {
   pints = cups * 2;
   alert(pints);
 };
 
-cupsToPints(4);
+// cupsToPints(4);
 
 var poundsToGrams = function() {
   pounds = parseInt(prompt("Enter the amount of pounds you have"));
@@ -30,3 +30,11 @@ var poundsToGrams = function() {
 var add = function(number1, number2) {
   return number1 + number2;
 };
+
+var pecksToBushels = function(peck) {
+  return peck * .25;
+};
+
+bushels = pecksToBushels(2);
+
+alert(bushels);
